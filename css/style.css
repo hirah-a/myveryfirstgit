@@ -1,0 +1,35 @@
+body{
+    background-image: url('images/background.png'), repeating-radial-gradient(white, yellow, orange) ;
+    text-align:center;
+    color:blanchedalmond;
+
+}
+
+div:hover{
+    background-color: chocolate;
+    
+}
+
+details{
+    font-size: large;
+    font-weight: 200;
+}
+details:hover{
+    background-color: chocolate;
+    size: 110%;
+}
+
+h1{
+    background-color: rgb(117, 72, 39);
+    color: blanchedalmond;
+    border-radius: 30%;
+}
+
+#contents{
+    text-align:left
+}
+
+#py_img{
+    height: 200px;
+    max-width: 250px;
+}

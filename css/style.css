@@ -1,5 +1,4 @@
 body{
-    background-image: url('images/background.png'), repeating-radial-gradient(white, yellow, orange) ;
     text-align:center;
     color:blanchedalmond;
 
@@ -7,7 +6,16 @@ body{
 
 div:hover{
     background-color: chocolate;
+    border-radius: 10%;
+}
+
+table, th, td{
+    border: 1px solid blanchedalmond;
+    background-color: chocolate;
+    margin-left: auto;
+    margin-right: auto;
     
+
 }
 
 details{
@@ -20,7 +28,7 @@ details:hover{
 }
 
 h1{
-    background-color: rgb(117, 72, 39);
+    background-color: chocolate;
     color: blanchedalmond;
     border-radius: 30%;
 }
@@ -32,4 +40,8 @@ h1{
 #py_img{
     height: 200px;
     max-width: 250px;
+}
+
+#return:hover{
+    background-color: chocolate;
 }

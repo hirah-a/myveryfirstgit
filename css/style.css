@@ -1,22 +1,16 @@
 body{
     text-align:center;
     color:blanchedalmond;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
 
 div:hover{
     background-color: chocolate;
     border-radius: 10%;
-}
-
-table, th, td{
-    border: 1px solid blanchedalmond;
-    background-color: chocolate;
-    margin-left: auto;
-    margin-right: auto;
     
-
 }
+
 
 details{
     font-size: large;
@@ -25,6 +19,22 @@ details{
 details:hover{
     background-color: chocolate;
     size: 110%;
+
+}
+
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: 2px solid burlywood;
+    background-color: chocolate;
+
+}
+
+.card{
+    border:  solid burlywood;
+    padding: 5px;
+    color:burlywood;
+
 }
 
 h1{
@@ -40,6 +50,7 @@ h1{
 #py_img{
     height: 200px;
     max-width: 250px;
+    float:inline-end;
 }
 
 #return:hover{
